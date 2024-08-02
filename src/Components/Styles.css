@@ -1,0 +1,58 @@
+.tm-hero {
+  position: relative;
+}
+
+#tm-video-container {
+  position: relative;
+}
+
+#tm-video {
+  width: 100%;
+  height: auto;
+}
+
+#tm-video-control-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2em;
+  color: white;
+  cursor: pointer;
+}
+
+.tm-search-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tm-search-input {
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.tm-suggestions {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+.tm-suggestions ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.tm-suggestions li {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.tm-suggestions li:hover {
+  background-color: #f5f5f5;
+}
