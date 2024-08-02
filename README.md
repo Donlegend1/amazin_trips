@@ -1,3 +1,17 @@
+# Introduction to the app
+This application helps keep tract of a user travel wishlist, which a user can add a destination they want to visit and when they have visisted that destination they can make it as visited, they can also removed a destination from the list. The list of destinations can also be filtered to see places that have been vissted or has not been visited.
+
+# Introduction to the app
+To use the web app just fill in the form to add a destination, you can also add a destination and visited or just leave it as not visted and if after you have visted the destination you just click on the checkbox to mark it as visited. the various tab also displays the destinations base on if there are visited or not.
+
+# Introduction to the app
+the app is deployed on Vercel and is available by the followinf link 
+https://amazin-trips.vercel.app/
+
+
+# If I had more time
+if i had more time I would have consumed the API that returns all the countries of the world with their flag so that any country can be selected. I wwould also include a home page, about page, and FAQ page.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
