@@ -10,7 +10,7 @@ https://amazin-trips.vercel.app/
 
 
 # If I had more time
-if i had more time I would have consumed the API that returns all the countries of the world with their flag so that any country can be selected. I wwould also include a home page, about page, and FAQ page.
+if i had more time I would have consumed the API that returns all the countries of the world with their flag so that any country can be selected. I wwould also include a  about page, and FAQ page.
 
 # Getting Started with Create React App
 

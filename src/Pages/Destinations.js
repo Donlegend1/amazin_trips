@@ -9,9 +9,12 @@ import DestinationList from "../Components/DestinationList";
 
 export default function Single() {
 
+
+  //setting state variables
   const [destinations, setDestinations] = useState([]);
    const [filter, setFilter] = useState("all");
 
+  //function to mark visited
    const toggleVisited = (index) => {
      const updatedDestinations = destinations.map((destination, i) => {
        if (i === index) {
@@ -24,6 +27,7 @@ export default function Single() {
      localStorage.setItem("destinations", JSON.stringify(updatedDestinations));
    };
 
+  //function to remove destination
    const removeDestination = (index) => {
      const updatedDestinations = destinations.filter((_, i) => i !== index);
 
@@ -31,6 +35,8 @@ export default function Single() {
      localStorage.setItem("destinations", JSON.stringify(updatedDestinations));
    };
 
+  
+  //function to filter destination
    const filteredDestinations = destinations.filter((destination) => {
      if (filter === "visited") {
        return destination.visited;
@@ -41,6 +47,7 @@ export default function Single() {
      return true;
    });
 
+  //function to get the destination list
   const getDestinationList = async () => {
      const storedDestinations = localStorage.getItem("destinations");
 
