@@ -70,7 +70,7 @@ export default function Header() {
               href="/"
               className="navbar-brand">
               <h1 className="m-0 text-primary">
-                <span className="text-dark">TRAVEL</span>ER
+                <span className="text-dark">Desti</span>nation
               </h1>
             </a>
             <button

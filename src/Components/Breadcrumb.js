@@ -12,7 +12,7 @@ const Breadcrumb = ({title}) => {
               <p className="m-0 text-uppercase">
                 <a
                   className="text-white"
-                  href>
+                  href="/">
                   Home
                 </a>
               </p>
